@@ -17,13 +17,22 @@
 }
 
 .section-content {
-  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+  @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
+}
+
+.button-style {
+  @apply p-4 px-8 rounded-full shadow-lg  duration-300 hover:opacity-80;
 }
 
 .button-container {
-  @apply p-4 px-8 rounded-full shadow-lg  duration-300 hover:opacity-80;
+  @apply flex flex-col md:flex-row justify-center w-full space-y-6 md:space-y-0 md:space-x-4 text-xl text-white;
 }
 
 .item-list-paragraph {
   @apply max-w-md sm:mx-auto text-grayishBlue;
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
