@@ -8,10 +8,21 @@
   }
 }
 
-.section-container {
-  @apply max-w-6xl mx-auto text-center;
+.section-heading {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
+.section-content {
+  @apply max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayishBlue;
 }
 
 .button-container {
   @apply p-4 px-8 rounded-full shadow-lg  duration-300 hover:opacity-80;
+}
+
+.item-list-heading {
+  @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+}
+
+.item-list-paragraph {
+  @apply max-w-md sm:mx-auto text-grayishBlue;
 }
